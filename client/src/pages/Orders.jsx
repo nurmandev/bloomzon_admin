@@ -25,7 +25,7 @@ const Order = () => {
 		},
 		{
 			field: 'TotalAmount',
-			headerName: 'Amount (₹)',
+			headerName: 'Amount ($)',
 			width: 100,
 			editable: true
 		},

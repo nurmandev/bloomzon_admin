@@ -49,7 +49,7 @@ const Product = () => {
 		},
 		{
 			field: 'Price',
-			headerName: 'Price (₹)',
+			headerName: 'Price ($)',
 			width: 100,
 			editable: true
 		},
