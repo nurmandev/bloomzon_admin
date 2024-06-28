@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #03163b;
+  color: white;
+}
+.customDataGrid .MuiDataGrid-footerContainer {
+  background-color: #152247; /* Change background color of footer */
+}
+
+.customDataGrid .MuiDataGrid-footer {
+  color: white; /* Change text color of footer */
+}
+
+/* Buttons shown on every page to Save the updated record & Delete record */
+#saveBtn{
+  border: 1px solid rgba(41, 246, 127, 0.7);
+  color: rgba(41, 246, 127, 0.7);
+}
+#deleteBtn{
+  border: 1px solid rgba(244, 67, 54, 0.6);
+  color: rgba(244, 67, 54, 0.6);
+}
+
+/* The Date Picker provided on the Daily Sales page */
+#startDatePicker, #endDatePicker{
+  background: #f0f0f0;
+  outline: none;
+  padding: 8px;
+  border-radius: 8px;
+  width: 6rem;
+  border: 1px solid #03163b;
+}
